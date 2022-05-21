@@ -4,6 +4,7 @@ describe('Demo Test', () => {
     cy.waitForSeconds(5)
 
     cy.fixture('loginData').then(({ username, password }) => {
+      //Test data
       cy.login(username, password)
     })
   })
