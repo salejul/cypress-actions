@@ -5,6 +5,7 @@ describe('Demo Test', () => {
 
     cy.fixture('loginData').then(({ username, password }) => {
       //Test data
+      //Branch test
       cy.login(username, password)
     })
   })
