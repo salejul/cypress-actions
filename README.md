@@ -1,1 +1,1 @@
-Cypress Typescript integration
+Cypress Typescript Integration
